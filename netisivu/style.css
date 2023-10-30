@@ -1,0 +1,65 @@
+body {
+    background-image: url("kuvat/FORTNIT.jpg");
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+}
+    h1.one {
+        width: 200px;
+        border: 2px solid black;
+        padding: 5px;
+        margin: auto;
+}  h2.two {
+    width: 200px;
+    border: 2px solid black;
+    padding: 5px;
+    margin: auto;
+}
+h1 {
+    background-image: url("kuvat/minibazing.jpg");
+}
+h2 {
+    background-image: url("kuvat/minibazing.jpg");
+}
+a {
+    border-style: solid;
+    border-color:black
+}
+a {
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    background-image: url("kuvat/minibazing.jpg");
+}
+img {
+    border-style: solid;
+    border-color:black
+}
+p {
+    background-image: url("kuvat/minibazing.jpg");
+    width: 250px;
+    border: 2px solid black;
+    padding: 35px;
+    margin: auto;
+    transition: transform 4s;
+}
+p:hover {
+    transform: rotate(360deg);
+}
+div {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    background-image: url("kuvat/mediumbazing.jpg");
+    position: relative;
+    animation-name: hohhohhoo;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+#div {animation-timing-function: ease-out;}
+@keyframes hohhohhoo {
+    0%   {background-image: url("kuvat/mediumbazing.jpg"); left:0px; top:0px;}
+    25%  {background-image: url("kuvat/mediumbazing.jpg"); left:1150px; top:0px;}
+    50%  {background-image: url("kuvat/mediumbazing.jpg"); left:1150px; top:485px;}
+    75%  {background-image: url("kuvat/mediumbazing.jpg"); left:0px; top:485px;}
+    100% {background-image: url("kuvat/mediumbazing.jpg"); left:0px; top:0px;}
+}
